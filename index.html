@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Educativa Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <!-- Logo real de ejemplo -->
+    <img src="imagenes/logo prueba.png" alt="Logo" class="logo">
+    <h1>Plataforma Educativa</h1>
+    <nav>
+      <a href="#ofimatica">Ofimática</a>
+      <a href="#mantenimiento">Mantenimiento</a>
+      <a href="#redes">Redes</a>
+	  <a href="#redes">ciberseguridad</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Sección Ofimática -->
+    <section id="ofimatica">
+      <h2>Herramientas Ofimáticas</h2>
+      <p>Ejemplo de video embebido desde YouTube.</p>
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/watch?v=QLjViZzlwUw" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </section>
+
+    <!-- Sección Mantenimiento -->
+    <section id="mantenimiento">
+      <h2>Mantenimiento de Equipos de Cómputo</h2>
+      <video controls>
+        <source src="videos/mantenimiento.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+      </video>
+    </section>
+
+    <!-- Sección Redes -->
+    <section id="redes">
+      <h2>Implementación de Redes de Datos</h2>
+      <video controls>
+        <source src="videos/redes.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+      </video>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo" required>
+        <textarea placeholder="Escribe tu mensaje..."></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Plataforma Educativa - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
