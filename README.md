@@ -1,19 +1,17 @@
-# 📘 Plataforma Educativa Demo
+# 🏫 Institución Educativa Casimiro Raúl Maestre
 
-Página web de ejemplo con:
+Página web institucional con:
 
-- Logo en el encabezado  
-- Video de prueba incrustado desde YouTube  
-- Secciones de Mantenimiento y Redes con videos en formato MP4  
+- Sección de bienvenida  
+- Galería de imágenes  
+- Videos educativos  
+- Información de contacto  
 
 ## 🚀 Cómo usar
-1. Coloca tu logo en `imagenes/logo.png`  
-2. Agrega tus videos en la carpeta `/videos/`  
-3. Abre `index.html` en tu navegador  
-
-## 📂 Estructura
-- `index.html` → Página principal  
-- `style.css` → Estilos  
-- `script.js` → Interactividad  
-- `/videos` → Carpeta para videos  
-- `/imagenes` → Carpeta para imágenes  
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/colegio-casimiro-raul-maestre.git
+   ```
+2. Sube tus imágenes reales a la carpeta `/imagenes/`.
+3. Coloca tus videos en la carpeta `/videos/`.
+4. Abre `index.html` en tu navegador o publícalo en un hosting gratuito como **GitHub Pages, Netlify o Vercel**.
